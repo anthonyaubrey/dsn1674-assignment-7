@@ -6,5 +6,19 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  font-family: 'Dosis', sans-serif;
+}
 
-font-family: 'Dosis', sans-serif;
+h1 {
+  font-style: bold;
+}
+
+.masthead {
+  background-image: url("../images/logo.svg"),url("../images/pattern.png");
+  background-size: 75px auto, 200px auto;
+  padding-top: 6em;
+  background-repeat: no-repeat, repeat;
+  background-position: center 10px, left top;
+  text-align: center;
+}
